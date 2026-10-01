@@ -16,7 +16,7 @@
           <text value="Dato"/>
         </properties>
       </component>
-      <component id="43857" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="43857" class="javax.swing.JTextField" binding="textDato">
         <constraints>
           <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -62,13 +62,15 @@
           <text value="Buscar"/>
         </properties>
       </component>
-      <component id="45061" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+      <component id="45061" class="javax.swing.JTextField" binding="textBuscar">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="3b26c" class="javax.swing.JButton" binding="buscarButton" default-binding="true">
         <constraints>
